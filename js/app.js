@@ -12,6 +12,11 @@ $(document).ready(function(){
   		$(".overlay").fadeOut(1000);
   	});
 
+//Generate secret number
+function generateNumber() {
+  var secretNumber = Math.floor((Math.random() * 100) + 1);
+}
+
 });
 
 
